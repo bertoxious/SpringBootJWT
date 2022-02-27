@@ -125,12 +125,24 @@ http://localhost:8080/assign-role
 
 
 **_URL_** 🟢
-<details><summary>Assign Role</summary>
+<details><summary>Admin Content</summary>
 <p>
 
 ```url
-http://localhost:8080/assign-role
+http://localhost:8080/admin-content
 ```
+
+
+</p>
+</details>
+
+<details><summary>User Content</summary>
+<p>
+
+```url
+http://localhost:8080/user-content
+```
+
 
 </p>
 </details>
