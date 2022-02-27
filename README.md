@@ -1,6 +1,7 @@
 # SpringBootJWT
 
-# Dependencies 
+## Dependencies
+
 ```xml
 <dependency>
 	<groupId>org.springframework.boot</groupId>
@@ -10,7 +11,6 @@
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-web</artifactId>
 </dependency>
-
 <dependency>
 	<groupId>com.h2database</groupId>
 	<artifactId>h2</artifactId>
