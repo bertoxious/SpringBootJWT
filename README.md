@@ -36,3 +36,52 @@
 	<version>0.9.1</version>
 </dependency>
 ```
+## Endpoints
+
+**_URL_**
+```url
+http://localhost:8080/create-user
+```
+**_Body_**
+```json
+{
+    "userName":"admin",
+    "userFirstName":"Mr. Admin",
+    "userLastName":"Lal",
+    "confirmPassword":"admin@pass",
+    "userPassword":"admin@pass"
+}
+```
+**_URL_**
+```url
+http://localhost:8080/add-role
+```
+**_Body_**
+```json
+{
+    "roleName":"ADMIN",
+    "roleDescription":"Access to all the APIs"
+}
+```
+**_URL_**
+```url
+http://localhost:8080/authenticate
+```
+**_Body_**
+```json
+{
+    "username":"admin",
+    "userPassword":"admin@pass"
+}
+```
+**_URL_**
+``url
+http://localhost:8080/assign-role
+```
+**_Body_**
+```json
+{
+    "username":"admin",
+    "role":"ADMIN"
+}
+```
