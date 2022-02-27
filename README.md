@@ -75,7 +75,7 @@ http://localhost:8080/authenticate
 }
 ```
 **_URL_**
-``url
+```url
 http://localhost:8080/assign-role
 ```
 **_Body_**
