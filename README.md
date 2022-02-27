@@ -1,6 +1,6 @@
 # SpringBootJWT
 
-__Steps__:  
+## STEPS :  
 
 [1. Create User entity and Role entity along with their repos.](https://github.com/bertoxious/SpringBootJWT/tree/master/src/main/java/com/example/JwtAuthentication/entities)  
 [2. Define relationship b/w both the entities.](https://github.com/bertoxious/SpringBootJWT/blob/master/src/main/java/com/example/JwtAuthentication/entities/User.java)  
