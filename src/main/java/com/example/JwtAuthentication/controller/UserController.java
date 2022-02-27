@@ -28,7 +28,7 @@ public class UserController {
     }
 
     @GetMapping("/admin-content")
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    @PreAuthorize("hasRole('ADMIN')")
     public String adminContent(){
         return "This is only accessible to admin";
     }
