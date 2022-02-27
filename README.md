@@ -39,9 +39,9 @@
 ## Endpoints
 
 **_URL_**  
-```html
+
 <h4 style="color:yellow;">POST</h4><h4 style="color:purple;">Create User</h4>
-```
+
 ```url
 http://localhost:8080/create-user
 ```
