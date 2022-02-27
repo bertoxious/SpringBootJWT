@@ -40,7 +40,7 @@
 
 **_URL_**  
 ```diff
-+ POST
+POST
 ```
 ```url
 http://localhost:8080/create-user
