@@ -40,7 +40,7 @@
 
 **_URL_**  
 
-<h4 style="color:yellow;">POST</h4><h4 style="color:purple;">Create User</h4>
+<span style="color:yellow;">POST</span><span style="color:purple;">Create User</span>
 
 ```url
 http://localhost:8080/create-user
