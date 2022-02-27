@@ -33,7 +33,8 @@ public class UserService {
             Role role = roleRepo.findById(roleName).get();
             roles.add(role);
             user.setRoles(roles);
-            return user;
+
+            return userRepo.save(user);
         }
         catch (Exception e){
             throw new Exception("No Such User");
