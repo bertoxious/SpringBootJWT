@@ -53,7 +53,7 @@
 ```
 ## Endpoints
 **_URL_** 🟠
-<details><summary>**Create User**</summary>
+<details><summary><h4>Create User</h4></summary>
 <p>
 
 ```url
