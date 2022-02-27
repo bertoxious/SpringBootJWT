@@ -38,7 +38,7 @@
 ```
 ## Endpoints
 
-**_URL_**💛
+**_URL_💛**
 ```url
 http://localhost:8080/create-user
 ```
@@ -52,7 +52,7 @@ http://localhost:8080/create-user
     "userPassword":"admin@pass"
 }
 ```
-**_URL_*💛
+**_URL_💛**
 ```url
 http://localhost:8080/add-role
 ```
@@ -63,7 +63,7 @@ http://localhost:8080/add-role
     "roleDescription":"Access to all the APIs"
 }
 ```
-**_URL_*💛
+**_URL_💛**
 ```url
 http://localhost:8080/authenticate
 ```
@@ -74,7 +74,7 @@ http://localhost:8080/authenticate
     "userPassword":"admin@pass"
 }
 ```
-**_URL_*💛
+**_URL_💛**
 ```url
 http://localhost:8080/assign-role
 ```
@@ -85,7 +85,7 @@ http://localhost:8080/assign-role
     "role":"ADMIN"
 }
 ```
-**_URL_**💚
-``url
+**_URL_💚**
+```url
 http://localhost:8080/admin-content
 ```
