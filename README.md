@@ -52,7 +52,25 @@
 </dependency>
 ```
 ## Endpoints
+**_URL_** 🟠
+<details><summary><h2>CREATE USER</h2></summary>
+<p>
 
+```url
+http://localhost:8080/create-user
+```
+**_Body_**
+```json
+{
+    "userName":"admin",
+    "userFirstName":"Mr. Admin",
+    "userLastName":"Lal",
+    "confirmPassword":"admin@pass",
+    "userPassword":"admin@pass"
+}
+```
+</p>
+</details>
 **_URL_** 🟠
 ```url
 http://localhost:8080/create-user
