@@ -53,7 +53,7 @@
 ```
 ## Endpoints
 **_URL_** 🟠
-<details><h4>Create User</h4><summary></summary>
+<details><summary>Create User</summary>
 <p>
 
 ```url
@@ -71,21 +71,9 @@ http://localhost:8080/create-user
 ```
 </p>
 </details>
-**_URL_** 🟠
-```url
-http://localhost:8080/create-user
-```
-**_Body_**
-```json
-{
-    "userName":"admin",
-    "userFirstName":"Mr. Admin",
-    "userLastName":"Lal",
-    "confirmPassword":"admin@pass",
-    "userPassword":"admin@pass"
-}
-```
-**_URL_** 🟠
+<details><summary>Add Role</summary>
+<p>
+
 ```url
 http://localhost:8080/add-role
 ```
@@ -96,7 +84,12 @@ http://localhost:8080/add-role
     "roleDescription":"Access to all the APIs"
 }
 ```
-**_URL_** 🟠
+
+</p>
+</details>
+<details><summary>Authenticate User</summary>
+<p>
+
 ```url
 http://localhost:8080/authenticate
 ```
@@ -107,7 +100,13 @@ http://localhost:8080/authenticate
     "userPassword":"admin@pass"
 }
 ```
-**_URL_** 🟠
+
+
+</p>
+</details>
+<details><summary>Assign Role</summary>
+<p>
+
 ```url
 http://localhost:8080/assign-role
 ```
@@ -118,6 +117,11 @@ http://localhost:8080/assign-role
     "role":"ADMIN"
 }
 ```
+
+
+
+</p>
+</details>
 **_URL_** 🟢
 ```url
 http://localhost:8080/admin-content
