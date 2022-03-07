@@ -11,7 +11,7 @@
 [7. Create JwtService and add createJwtToken method.](https://github.com/bertoxious/SpringBootJWT/blob/master/src/main/java/com/example/JwtAuthentication/services/JwtService.java)  
 [8. Create JWtAuthenticationEntryPoint.](https://github.com/bertoxious/SpringBootJWT/blob/master/src/main/java/com/example/JwtAuthentication/config/JwtAuthenticationEntryPoint.java)  
 [9. Create a JWTRequestFilter and add it to the WebSecurityConfiguration.](https://github.com/bertoxious/SpringBootJWT/blob/master/src/main/java/com/example/JwtAuthentication/config/JwtRequestFilter.java)  
-[10. Create a JWTUtil class which will contain all the logic for JWT token i.e. generation, expiration, validation, claims etc.](https://github.com/bertoxious/SpringBootJWT/blob/master/src/main/java/com/example/JwtAuthentication/util/JwtUtil.java)  
+[10. Create a JWTUtil class containing all the logic for JWT token generation, expiration, validation, claims etc.](https://github.com/bertoxious/SpringBootJWT/blob/master/src/main/java/com/example/JwtAuthentication/util/JwtUtil.java)  
 [11. Add PreAuthorize depeding upon role to the controller urls.](https://github.com/bertoxious/SpringBootJWT/blob/master/src/main/java/com/example/JwtAuthentication/controller/UserController.java)  
 
 
